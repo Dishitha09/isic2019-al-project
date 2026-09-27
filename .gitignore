@@ -1,0 +1,24 @@
+# Local datasets and generated experiment outputs
+/data/
+/outputs*/
+*.pt
+*.pth
+*.ckpt
+
+# Python environments and caches
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local credentials and editor settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
